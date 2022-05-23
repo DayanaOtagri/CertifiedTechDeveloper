@@ -1,0 +1,17 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // System.out.println("Hola Mundo");
+
+        String nombre = "Dayana";
+
+        Integer edad = 24;
+
+        Double altura = 1.60;
+
+
+        System.out.println(nombre + " mide " + altura + " metros");
+    }
+}

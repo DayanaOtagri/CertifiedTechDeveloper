@@ -1,0 +1,4 @@
+ClaveSuperusuario Debian: debianClave
+
+Usuario nuevo: debianusuario
+contraseña: usuarioclave
