@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fontawesome.com/v5.15/icons/">
+    <title>Manage</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+
+        
+          <img src="./img/logo.svg" alt="logo">
+        
+
+        
+           <nav>
+             <ul>
+                <li> <a href="#"></a> Pricing   </li>
+                <li> <a href="#"></a> Product   </li>
+                <li> <a href="#"></a> About us  </li>
+                <li> <a href="#"></a> Careers   </li>
+                <li> <a href="#"></a> Community </li>
+
+                <button> Get Started </button>
+             </ul>
+           </nav>
+        
+
+        <img src="./img/icon-hamburger.svg"  alt="">
+        
+
+
+    </header>
+
+    <main>
+    <!-- El main tiene cuatro secciones  -->
+        <!-- primera sección contiene dos articulos  -->
+          <section> 
+
+            <!-- Este articulo contiene la imagen de las estadisticas -->
+              <article>  
+                  <img class="fEstadisticas" src="./img/illustration-intro.svg" alt="fotos estadisticas">
+              </article>
+
+              <!--  Este articulo contiene un titulo y párrafo  -->
+              <article>
+
+                <div>
+
+                   <h1>
+                    Bring everyone together to build better products.
+                   </h1>
+
+                     <p>
+                         Manage makes it simple for software teams
+                         to plan day-to-day tasks while keeping the 
+                         large team goals in view.
+                     </p>
+
+                <button> Get Started </button>
+
+                 </div>
+
+              </article>
+          </section>
+
+    <!-- segunda sección contiene dos articulos  -->
+        <!-- Este articulo contiene un titulo y un parrafo  -->
+
+
+            <article>
+
+             <div>
+                <h2 class="h2">
+                    What´s different about Manage? 
+                </h2>
+
+                <p>
+                    Manage provides all the functionality your
+                    teas needs, without the complexity.
+                    Our software is tailor-made for modern digital product teams
+                </p>
+            </div>
+
+            </article>
+
+        <!-- Este articulo contiene  tres cards -->
+
+            <article>
+               
+                <div> 
+                    <div>
+                    <button class="bnt" type="button"> 01  </button>
+                    <h4> Track company-wide progress </h4>
+                    </div>
+                    <p class="txtIz"> 
+                        See how your day-to-day tasks fit into the wider vision. Go from tracking progress 
+                        at the milestone level all the way done to the smallest of details. Never lose sight 
+                        of the bigger picture again.
+                    </p>
+                </div>  
+
+                <div>
+
+                    <button class="bnt" type="button"> 02  </button>
+                    <h4>
+                        Advance built-in reports
+                    </h4>
+                    <p class="txtIz"> 
+                        Set internal delivery estimates and track progress toward company goals.
+                        Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.
+                    </p>
+                </div>
+
+                <div>
+
+                    <button class="bnt" type="button"> 03  </button>
+                    <h4> 
+                        Everything you need in one place 
+                    </h4>
+                    <p class="txtIz"> 
+                        Stop jumping from one service to another to communicate, store files, 
+                        track tasks and share documents. Manage offers an all-in-one team productivity solution.
+                    </p>
+
+                </div>
+    <!-- tercera sección contiene un articulo  -->
+ 
+        <Section>
+        
+        <!-- Este articulo contiene  tres cards -->
+            <article>
+
+                <div>
+                    <h2 class="h2">
+                        What they´ve said
+                </h2>
+            </div>
+                <div>
+
+                    <img src="./img/avatar-anisha.png" alt="fotoAnisha">
+                    <h3>
+                        Ali Bravo
+                    </h3>
+
+                    <p>
+                        “Manage has supercharged our team´s workflow. 
+                        The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”
+                    </p>
+
+
+
+                </div>
+
+                <div>
+                    <img src="./img/avatar-ali.png" alt="FotoAli">
+                    <h3>
+                        Ali Bravo
+                    </h3>
+
+                    <p>
+                        “We have been able to cancel so many other subscriptions since using manage.
+                        There ir no more cross-channel confusion and everyone is much more focused.”
+                    </p>
+
+                </div>
+
+                <div>
+
+                    <img src="./img/avatar-richard.png" alt="FotoRichard">
+                    <h3>
+                        Ali Bravo
+                    </h3>
+
+                    <p>
+                        “Manage allows us to provide structure and process. 
+                        It keeps us organized and focused. 
+                        I can´t stop recommending them to everyone i talk to!”
+                    </p>
+
+
+                </div>
+
+                <div>
+                <button  type="button"> Get Started  </button>
+                </div>
+            </article>
+
+        </Section>
+
+    <!-- cuarta sección contiene un div  -->
+
+        <section class="fondoNaranja"> 
+
+            <div class="amplio">
+                <h2> 
+                    Simplify hoy your team words today.
+                </h2>
+
+                <button class="btn3"> Get Started </button>
+                
+            </div>
+
+        </section>
+
+
+
+    </main>
+
+    <footer>
+<!-- El footer tiene tres secciones  -->
+    <!-- formulario  -->
+        <section class="formulario">
+
+            <form action="Ibox" method="post"> 
+                <label for="boton">  </label>
+                <input type="text" name="INBO" id="boton" value="Updates in your inbox...">
+
+                <button type="button"> GO </button>
+            </form>
+
+        </section>
+
+    <!-- listas que tiene dos div con una lista en cada uno  -->
+        <section class="listas">
+
+            <div>
+            <ul>
+                <li> Home </li>
+                <li> Pricing </li>
+                <li> Products </li>
+                <li> About Us</li>
+            </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li> Careers </li>
+                    <li> Community </li>
+                    <li> Privacy Policy </li>
+                </ul>
+                </div>
+
+        </section>
+
+    <!-- iconos y logo -->
+        <section>
+
+            <article>
+                 
+              <div class="iconos">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-pinterest"></i>
+                <i class="fab fa-instagram"></i>
+              </div>
+
+              <div class="logoC">
+                <img src="./img/LogoClaro.png" alt="">
+              </div>
+
+            </article>
+
+            <article>
+                <p class="uP"> Copyright 2020. All Rights Reserved </p>
+            </article>
+
+        </section>
+        
+
+    </footer>
+</body>
+</html>
+
+
+CSS
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+* {
+    box-sizing: border-box;
+}
+:root {
+
+/* colores*/ 
+
+    --Rojo-brillante: rgb(242, 95, 58);
+    --Azul-oscuro: rgb(35, 44, 81);
+
+    --Azul-grisáceo-oscuro: rgb(143, 148, 167);
+    --Azul-muy-oscuro: rgb(29, 30, 37);
+    --Rojo-muy-pálido: rgb(255, 239, 234);
+    --Variante-gris-claro: rgb(249, 249, 249);
+
+
+}
+
+
+/*  Body */
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+}
+
+button {
+
+    background-color: var(--Rojo-brillante);
+    color: var(--Variante-gris-claro);
+    position: relative;
+    border-radius: 10vw;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 4px;
+    padding: 4px;
+}
+
+nav ul {
+    display: none;
+    list-style: none;
+}
+
+/* main */
+
+.fEstadisticas {
+    width: 350px;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color: var(--Azul-oscuro);
+    position: relative;
+    top: 25px;
+   }
+.h2 {
+    color: var(--Azul-oscuro);
+}
+h3 {
+    color: var(--Azul-oscuro);
+}
+
+/* Aplica el fondo NARANJA  
+al segundo articulo de la segunda sección */
+
+h4 {
+    background-color: var(--Rojo-muy-pálido);
+    color: var(--Azul-oscuro);
+    width: 350px;
+    position: relative;
+    left: 20px;
+    z-index: -1;
+    text-align: center;
+}
+
+.txtIz{
+    text-align: left;
+}
+
+.bnt {
+    position: relative;
+    top: 50px;
+    right: 150px;
+    width: 50px;
+    height: 35px;
+
+}
+
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+
+p {
+    color: var(--Azul-grisáceo-oscuro);
+}
+
+
+/* Cuarta sección del Body*/
+
+
+.fondoNaranja {
+    background-color: var(--Rojo-brillante);
+    color: var(--Variante-gris-claro);
+    height: 10rem;
+}
+
+.btn3 {
+    background-color: var(--Variante-gris-claro);
+    color: var(--Rojo-brillante);
+}
+
+
+
+
+/* footer */
+
+footer {
+    background-color: var(--Azul-muy-oscuro);
+    height: 400px;
+}
+
+input {
+    color: var(--Azul-grisáceo-oscuro);
+    border-radius: 10rem;
+    border: none;
+    height: 2.1rem;
+    width: 15rem;
+}
+
+.formulario { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 40px;;
+}
+
+div ul li {
+    list-style: none;
+    color: var(--Variante-gris-claro);
+    text-align: left;
+}
+
+.listas {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    line-height: 2.0rem;
+}
+
+
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 1.5rem;
+
+}
+
+.fab {
+color:var(--Variante-gris-claro);
+font-size: 2.0rem;
+
+}
+
+.logoC{
+    position: relative;
+    top: 3rem;
+}
+
+
+.uP {
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+    top: 2rem;
+}
+
+

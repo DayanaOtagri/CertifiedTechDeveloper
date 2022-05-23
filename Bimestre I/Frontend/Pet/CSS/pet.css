@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2? family = Noto + Sans + JP: wght @ 100 & display = swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.fondo {
+    background-color: black;
+    
+}
+
+.blanco {
+    color: white;
+}
+
+.derecha {
+    text-align: right;
+}
+
+.fondo2 {
+    background-color:#F0A83E;
+}
+
+.fondo3 {
+    background-color: #FFFFFF;
+}
+
+.fondo4 {
+    background-color: orange;
+    background-size: contain ;
+}
+
+.centro {
+    text-align: center;
+    
+}
+
+.font {
+    font-family:'Noto Sans KR', sans-serif;
+}
+
+.txtnormal {
+    font-style: normal;
+}
+
+.completo {
+    background-size: cover;
+}
+
+.cafe {
+    background-color: #3C2313;
+}

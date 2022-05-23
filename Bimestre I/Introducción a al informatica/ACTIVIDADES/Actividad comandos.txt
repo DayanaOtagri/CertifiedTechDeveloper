@@ -1,0 +1,62 @@
+heidy@LAPTOP-SG9OBQ6K MINGW64 ~
+$ cd Desktop
+
+heidy@LAPTOP-SG9OBQ6K MINGW64 ~/Desktop
+$ mkdir Informes
+
+heidy@LAPTOP-SG9OBQ6K MINGW64 ~/Desktop
+$ cd Informes
+
+heidy@LAPTOP-SG9OBQ6K MINGW64 ~/Desktop/Informes
+$ touch informeAnual.xls
+
+heidy@LAPTOP-SG9OBQ6K MINGW64 ~/Desktop/Informes
+$ ls
+informeAnual.xls
+
+
+
+
+
+
+heidy@LAPTOP-SG9OBQ6K MINGW64 ~
+$ cd Desktop
+
+heidy@LAPTOP-SG9OBQ6K MINGW64 ~/Desktop
+$ mkdir Informes
+
+heidy@LAPTOP-SG9OBQ6K MINGW64 ~/Desktop
+$ cd Informes
+
+heidy@LAPTOP-SG9OBQ6K MINGW64 ~/Desktop/Informes
+$ touch informeAnual.xls
+
+heidy@LAPTOP-SG9OBQ6K MINGW64 ~/Desktop/Informes
+$ ls
+informeAnual.xls
+
+heidy@LAPTOP-SG9OBQ6K MINGW64 ~/Desktop/Informes
+$ ^C
+
+heidy@LAPTOP-SG9OBQ6K MINGW64 ~/Desktop/Informes
+$ mkdir auditoria
+
+heidy@LAPTOP-SG9OBQ6K MINGW64 ~/Desktop/Informes
+$ touch auditoria.xls
+
+heidy@LAPTOP-SG9OBQ6K MINGW64 ~/Desktop/Informes
+$ touch reporteConsolidado.xls
+
+heidy@LAPTOP-SG9OBQ6K MINGW64 ~/Desktop/Informes
+$ ls
+auditoria/  auditoria.xls  informeAnual.xls  reporteConsolidado.xls
+
+heidy@LAPTOP-SG9OBQ6K MINGW64 ~/Desktop/Informes
+$ mv auditoria.xls auditoria
+
+heidy@LAPTOP-SG9OBQ6K MINGW64 ~/Desktop/Informes
+$ cd auditoria
+
+heidy@LAPTOP-SG9OBQ6K MINGW64 ~/Desktop/Informes/auditoria
+$ ls
+auditoria.xls

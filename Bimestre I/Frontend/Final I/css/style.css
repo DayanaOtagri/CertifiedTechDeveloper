@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+* {
+    box-sizing: border-box;
+}
+:root {
+
+/* colores*/ 
+
+    --Rojo-brillante: rgb(242, 95, 58);
+    --Azul-oscuro: rgb(35, 44, 81);
+
+    --Azul-grisáceo-oscuro: rgb(143, 148, 167);
+    --Azul-muy-oscuro: rgb(29, 30, 37);
+    --Rojo-muy-pálido: rgb(255, 239, 234);
+    --Variante-gris-claro: rgb(249, 249, 249);
+
+
+}
+
+
+/*  Body */
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+}
+
+button {
+
+    background-color: var(--Rojo-brillante);
+    color: var(--Variante-gris-claro);
+    position: relative;
+    border-radius: 10vw;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 20px;
+}
+
+nav ul {
+    display: none;
+    list-style: none;
+}
+
+/* main */
+
+main a {
+    text-decoration: none;
+}
+
+nav { 
+    list-style: none;
+}
+
+.botonesNaranja {
+    text-decoration: none;
+    color: var(--Variante-gris-claro);
+}
+
+.btnHe {
+    visibility: none;
+}
+
+.fEstadisticas {
+    width: 335px;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    right:  5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color: var(--Azul-oscuro);
+    position: relative;
+    top: 25px;
+   }
+.h2 {
+    color: var(--Azul-oscuro);
+}
+h3 {
+    color: var(--Azul-oscuro);
+}
+
+/* Aplica el fondo NARANJA  
+al segundo articulo de la segunda sección */
+
+h4 {
+    background-color: var(--Rojo-muy-pálido);
+    color: var(--Azul-oscuro);
+    width: 350px;
+    position: relative;
+    left: 20px;
+    z-index: -1;
+    text-align: center;
+    font-size: .90rem;
+}
+
+.txtIz{
+    text-align: left;
+}
+
+.bnt {
+    position: relative;
+    top: 45px;
+    right: 120px;
+    width: 50px;
+    height: 35px;
+
+}
+
+section {
+    text-align: center;
+    padding:30px;
+}
+
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+
+p {
+    color: var(--Azul-grisáceo-oscuro);
+}
+
+
+/* Cuarta sección del Body*/
+
+
+.fondoNaranja {
+    background-color: var(--Rojo-brillante);
+    color: var(--Variante-gris-claro);
+    height: 15rem;
+} 
+
+.botonesBlanco{
+    color: var(--Rojo-brillante);
+}
+
+.btn3 {
+    background-color: var(--Variante-gris-claro);
+    color: var(--Rojo-brillante);
+}
+
+
+
+
+/* footer */
+
+footer {
+    background-color: var(--Azul-muy-oscuro);
+    height: 420px;
+}
+
+input {
+    color: var(--Azul-grisáceo-oscuro);
+    border-radius: 10rem;
+    border: none;
+    height: 2.1rem;
+    width: 15rem;
+}
+
+.formulario { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 40px;;
+}
+
+div ul li {
+    list-style: none;
+    color: var(--Variante-gris-claro);
+    text-align: left;
+}
+
+.listas {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 40px;
+    line-height: 2.0rem;
+}
+
+
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 1.5rem;
+
+}
+
+.fab {
+color:var(--Variante-gris-claro);
+font-size: 2.0rem;
+
+}
+
+.logoC{
+    position: relative;
+    top: 3rem;
+}
+
+
+.uP {
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+    top: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--Azul-grisáceo-oscuro);
+}
+
+@media (min-width: 700px){
+
+* {
+    
+    box-sizing: border-box;
+}
+
+p {
+    color: var(--Azul-oscuro);
+    font-size: 1.3rem;
+}
+
+
+
+/* Body */
+/*HEADER*/
+
+header {
+    height: 4.5rem;
+    margin: 90px;
+    padding: 15px;
+}
+
+.menu  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.rem;
+  }
+
+a {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    width: 5rem;
+    color: var(--Azul-oscuro);
+}
+
+.botonesNaranja {
+    color: var(--Variante-gris-claro);
+    width: 8rem;
+    font-size: 1rem;
+}
+
+.btnHe {
+    display: flex;
+    position: relative;
+    bottom: 1rem;
+    left: 5rem;
+}
+
+
+
+.hamburguesita {
+    visibility: hidden;
+}
+
+
+/* MAIN*/
+/* Sección 1 */ 
+
+button {
+    font-size: 25px;
+    padding: 10px;
+}
+
+section article {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.s1{
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-around;
+
+}
+
+.di1 {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  text-align: left;
+}
+
+.fEstadisticas {
+    height: 40rem;
+    width: 40rem;
+} 
+h1 { 
+    font-weight: bold;
+    text-align: left;
+    font-size: 3rem;
+}
+
+
+.btn1 {
+position: relative;
+right: 8rem;
+}
+
+/* SECCIÓN DOS*/ 
+
+.s2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+h2 {
+    font-size: 35px;
+    text-align: left;
+}
+
+h4 {
+    display: flex;
+    background-color: white;
+    color: var(--Azul-oscuro);
+    font-size: 1.4rem;
+    position: absolute;
+    left: 760px;
+}
+
+.txtIz {
+    width: 30rem;
+}
+
+.s2dv1 { 
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  text-align: left;
+  margin: 35px 85px;
+}
+
+.bnt {
+    position: relative;
+    right: 20rem;
+    top:1.1rem;
+    width: 80px;
+    height: 40px;
+
+}
+
+
+.cards1 {
+    display: flex;
+    flex-direction: column;
+    width: 70rem;
+}
+
+/*  TERCERA SECCIÓN */
+
+.s3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.artCards {
+    width: 75rem;
+}
+
+
+/* CUARTA SECCIÓN*/
+
+.fondoNaranja {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 300px;
+}
+
+.amplio {
+    display: flex;
+    justify-content: center;
+}
+
+.btn3 {
+    
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+    height: 50px;
+}
+
+.botonesBlanco {
+    color:var(--Rojo-brillante);
+    width: 10rem;
+    font-size: 1.5rem;
+}
+
+footer {
+    height: 300px;
+}
+footer section {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    right: 15rem;
+    justify-content: space-between;
+}
+
+
+input {
+    height: 3rem;
+}
+
+.iconLog {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    width: 20rem;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cLog{
+    width: 18rem;
+}
+
+.copy {
+    position: relative;
+    top:8rem;
+    left:70.6rem;
+}
+
+.uP {
+    color: var(--Variante-gris-claro);
+    font-size: 1rem;
+}
+
+/* TRANSICIONES */
+
+a:hover {
+    background-color: var(--Azul-oscuro);
+    color: var(--Variante-gris-claro);
+    transform: rotate(15deg);
+}
+
+img:hover{
+    transition: 2s;
+    transform: scale(1.2);
+}
+
+.bnt:hover{
+    transition: 3s;
+    transform: rotate(360deg);
+}
+
+.divCard:hover{
+    background-color: var(--Variante-gris-claro);
+    transition: 2s;
+    transform: rotateY(360deg);
+    transform-style: preserve-3d;
+}
+
+i:hover{
+    color: var(--Rojo-brillante);
+    transition: 2s;
+    transform: rotateY(360deg);
+    transform-style: preserve-3d;
+}
+
+
+
+}
+

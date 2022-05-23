@@ -1,0 +1,1 @@
+Git es una aplicación de una terminal que se utiliza como interfaz de un sistema operativo a través de comandos

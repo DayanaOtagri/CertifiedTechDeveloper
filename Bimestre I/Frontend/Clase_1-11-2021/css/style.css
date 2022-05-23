@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto & display = swap');
+
+
+.texto-negrita {
+    font-weight: bold;
+}
+.imagen {
+    background-size: cover;
+}
+
+.fondo-cabecera {
+    background-color: #E5E5E5;
+}
+
+h1, h2 {
+    letter-spacing: 1.5;
+    background-color: #C4C4C4
+
+}
+
+h1 {
+    text-align: center; 
+    letter-spacing: 1.5;
+    font-family: 'Roboto', sans-serif;
+    color: #005677;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #005677;
+    ;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.izquierda {
+    text-align: center;
+}
+
+

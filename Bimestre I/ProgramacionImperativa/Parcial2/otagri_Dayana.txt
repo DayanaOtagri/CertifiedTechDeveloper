@@ -1,0 +1,199 @@
+const bookstore = {
+    libros: [
+      {
+        titulo: "Los Dias del Venado",
+        autor: "Liliana Bodoc",
+        editorial: "Debolsillo",
+        fechaPublicacion: 2018,
+        stock: 76,
+        precio: 1399,
+      },
+      {
+        titulo: "Los Dias de la Sombra",
+        autor: "Liliana Bodoc",
+        editorial: "Debolsillo",
+        fechaPublicacion: 2018,
+        stock: 29,
+        precio: 1399,
+      },
+      {
+        titulo: "Los Dias del Fuego",
+        autor: "Liliana Bodoc",
+        editorial: "Debolsillo",
+        fechaPublicacion: 2018,
+        stock: 65,
+        precio: 1650,
+      },
+      {
+        titulo: "El Silmarillion",
+        autor: "J.r.r. Tolkien",
+        editorial: "Minotauro",
+        fechaPublicacion: 2010,
+        stock: 7,
+        precio: 2550,
+      },
+      {
+        titulo: "Trilogia El Señor De Los Anillos",
+        autor: "J.r.r. Tolkien",
+        editorial: "Minotauro",
+        fechaPublicacion: 2002,
+        stock: 10,
+        precio: 7770,
+      },
+      {
+        titulo: "El Resplandor",
+        autor: "Stephen King",
+        editorial: "Debolsillo",
+        fechaPublicacion: 2012,
+        stock: 51,
+        precio: 2599,
+      },
+      {
+        titulo: "Doctor Sueño",
+        autor: "Setephen King",
+        editorial: "Debolsillo",
+        fechaPublicacion: 2016,
+        stock: 42,
+        precio: 2599,
+      },
+      {
+        titulo: "La Sombra",
+        autor: "John Katzenbach",
+        editorial: "Ediciones B",
+        fechaPublicacion: 1995,
+        stock: 85,
+        precio: 2149,
+      },
+      {
+        titulo: "Primera Persona Del Singular",
+        autor: "Haruki Murakami",
+        editorial: "Tusquets",
+        fechaPublicacion: 2021,
+        stock: 60,
+        precio: 1790,
+      },
+      {
+        titulo: "Fuego y Sangre",
+        autor: "George r.r. Martin",
+        editorial: "Plaza & Janes",
+        fechaPublicacion: 2018,
+        stock: 78,
+        precio: 4449,
+      },
+    ],
+
+    // A
+    buscarPorTitulo: function (titulos) {
+
+        let librosTitulo = [ ]
+
+        for(let i = 0; i < this.libros.length; i++) {
+
+            if (titulos == this.libros[i].titulo) {
+                librosTitulo.push(this.libros[i])
+            } // fin del if
+
+        } // Fin del ciclo for
+        return librosTitulo
+    },//Fin de la función
+
+// B
+
+    buscarPorAutor: function (autores) {
+
+        let librosAutor = [ ]
+
+        for(let i = 0; i < this.libros.length; i++) {
+
+            if (autores == this.libros[i].autor) {
+                librosAutor.push(this.libros[i])
+            } // fin del condicional
+        } // fin del for
+        return librosAutor
+    }, // fin de la funcion
+
+// C
+
+    filtrarPorPrecio: function (precios) {
+
+        let librosPrecio = [ ]  
+
+        for(let i = 0; i < this.libros.length; i++) {
+
+            if (precios == this.libros[i].precio) {
+                librosPrecio.push(this.libros[i])
+            } // fin de la condicion 
+        } // fin del for
+        return librosPrecio
+    }, // fin de la funcion
+// D 
+
+modificarStok:function (buscarPorTitulo, cantidad) {
+
+    let cambio = [ ];
+    for(let i = 0; i < this.libros.length; i++) {
+
+        if (buscarPorTitulo[i].stock !== cantidad) {
+            this.libros.stock += cantidad
+            cambio.push(this.libros[i])
+        } // fin del if
+
+    } // fin del for
+    return cambio
+}, // fin de la funcion 
+
+// D
+
+    precioPromedio: function () {
+
+        let elPromedio = 0,
+
+        for (let i = 0; i < this.libros.length; i++) {
+
+            if(this.libros[i].precio) {
+
+                this.libros[i].precio += this.libros[i].precio / 10;
+                
+                elPromedio.push(this.libros[i])
+            }
+        }
+        return "El precio promedio de cada libro es de: " + elPromedio 
+    }
+
+  };
+  
+  /***********************************/
+  /*   ↧ Ejecución de consignas ↧    */
+  /***********************************/
+  console.log("---------- ↧ Punto A ↧ ----------");
+  let librosXTitulo = bookstore.buscarPorTitulo("La Sombra")
+  console.log(librosXTitulo);
+  
+  console.log("---------------------------------");
+  
+  console.log("---------- ↧ Punto B ↧ ----------");
+  // Ejecución aquí ↧
+  let librosXAutor = bookstore.buscarPorAutor("Liliana Bodoc");
+  console.log(librosXAutor);
+  
+  console.log("---------------------------------");
+  
+  console.log("---------- ↧ Punto C ↧ ----------");
+  // Ejecución aquí ↧
+  let librosXPrecio = bookstore.filtrarPorPrecio(7770);
+  console.log(librosXPrecio);
+
+  console.log("---------------------------------");
+  
+  console.log("---------- ↧ Punto D ↧ ----------");
+  // Ejecución aquí ↧
+  //let stockModificado = bookstore.modificarStok("El Resplandor", 90);
+//  console.log(stockModificado);
+  
+  console.log("---------------------------------");
+  
+  console.log("---------- ↧ Punto E ↧ ----------");
+  // Ejecución aquí ↧
+  let librosXPromedio = bookstore.precioPromedio();
+  console.log(librosXPromedio);
+  console.log("---------------------------------");

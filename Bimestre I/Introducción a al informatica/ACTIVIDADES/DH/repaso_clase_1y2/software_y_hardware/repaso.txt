@@ -1,0 +1,2 @@
+Hardware: Son los recursos que dispone un sistema para comunicación con un usuario
+Software: Todo lo que interpreta y ejecuta peticiones de un usuario
