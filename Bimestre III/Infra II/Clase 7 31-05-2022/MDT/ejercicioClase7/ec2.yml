@@ -1,0 +1,38 @@
+---
+- hosts: localhost
+ tasks:
+ - name: Crear grupo de seguridad con HTTPS, HTTP y SSH
+   ec2_group:
+     name: Grupo10-1
+     vpc_id: vpc-0042c222982294aa6
+     description: sg con las reglas
+     region: us-west-1
+     rules:
+       - proto: tcp
+         ports:
+         - 443
+         - 80
+         - 22
+         cidr_ip: 0.0.0.0/0
+         rule_desc: acepto todo el tráfico en puerto 443, 80 y 22
+  - name: Creamos nuestro servidor
+    ec2:
+     region: us-west-1
+     instance_type: t2.micro
+     image: ami-0ed05376b59b90e46
+     wait: yes
+     wait_timeout: 500
+     volumes:
+       - device_name: /dev/xvda
+         volume_type: gp2
+         volume_size: 8
+     vpc_subnet_id: subnet-070d3b818d23ea3cf
+     assign_public_ip: yes
+     key_name: Grupo10-1
+    register: info
+  - name: IP Pública de nuestro servidor
+    debug:
+      var: info.instances[0].public_ip
+  - name: DNS Público de nuestro servidor
+    debug:
+      var: info.instances[0].public_dns_name
