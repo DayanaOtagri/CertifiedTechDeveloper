@@ -1,0 +1,5 @@
+1. Saber la estructura de componente de clase
+2. Saber la sintaxis para declarar el estado
+3. Saber la sintaxis para modificar / actualizar el estado
+4. Declarar un método
+5. Saber pasar y recibir props de un componente a otro

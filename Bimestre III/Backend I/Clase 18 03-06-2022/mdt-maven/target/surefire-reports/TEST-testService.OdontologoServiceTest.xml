@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="1" name="testService.OdontologoServiceTest" time="0.566" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2021.3.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.2+8-86"/>
+    <property name="sun.boot.library.path" value="C:\Users\heidy\.jdks\openjdk-17.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\heidy\Desktop\CT_D\Bimestre III\Backend I\Clase 18 03-06-2022\mdt-maven"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CO"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\heidy\Desktop\CT_D\Bimestre III\Backend I\Clase 18 03-06-2022\mdt-maven"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.2+8-86"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\heidy\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\heidy\.jdks\openjdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\HashiCorp\Vagrant\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\PowerShell\7\;C:\Users\heidy\AppData\Local\Programs\Python\Python310;C:\Users\heidy\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\heidy\anaconda3;C:\Users\heidy\anaconda3\Library\mingw-w64\bin;C:\Users\heidy\anaconda3\Library\usr\bin;C:\Users\heidy\anaconda3\Library\bin;C:\Users\heidy\anaconda3\Scripts;C:\Users\heidy\AppData\Local\Microsoft\WindowsApps;C:\Users\heidy\Downloads\Microsoft VS Code\bin;C:\Users\heidy\AppData\Local\Programs\Git\cmd;C:\Users\heidy\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\heidy"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="heidy"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3.2 test"/>
+    <property name="java.home" value="C:\Users\heidy\.jdks\openjdk-17.0.2"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="testService.OdontologoServiceTest" name="eliminarPorId" time="0.511"/>
+  <testcase classname="testService.OdontologoServiceTest" name="guardarOdontologo" time="0.001"/>
+  <testcase classname="testService.OdontologoServiceTest" name="traerTodos" time="0.054">
+    <failure message="org.h2.jdbc.JdbcSQLNonTransientException: IO Exception: &quot;java.nio.file.NoSuchFileException: create.sql&quot;; &quot;create.sql&quot;
+IO Exception: &quot;java.nio.file.NoSuchFileException: create.sql&quot;; &quot;create.sql&quot;; SQL statement:
+RUNSCRIPT FROM &apos;create.sql&apos; [90031-212]" type="java.lang.RuntimeException">java.lang.RuntimeException: org.h2.jdbc.JdbcSQLNonTransientException: IO Exception: &quot;java.nio.file.NoSuchFileException: create.sql&quot;; &quot;create.sql&quot;
+IO Exception: &quot;java.nio.file.NoSuchFileException: create.sql&quot;; &quot;create.sql&quot;; SQL statement:
+RUNSCRIPT FROM &apos;create.sql&apos; [90031-212]
+	at odontologos.dao.impl.OdontologoDaoH2.buscarTodos(OdontologoDaoH2.java:95)
+	at odontologos.service.OdontologoService.buscarTodos(OdontologoService.java:24)
+	at testService.OdontologoServiceTest.traerTodos(OdontologoServiceTest.java:26)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: IO Exception: &quot;java.nio.file.NoSuchFileException: create.sql&quot;; &quot;create.sql&quot;
+IO Exception: &quot;java.nio.file.NoSuchFileException: create.sql&quot;; &quot;create.sql&quot;; SQL statement:
+RUNSCRIPT FROM &apos;create.sql&apos; [90031-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:554)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convertIOException(DbException.java:442)
+	at org.h2.command.dml.ScriptBase.openInput(ScriptBase.java:170)
+	at org.h2.command.dml.RunScriptCommand.update(RunScriptCommand.java:52)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:174)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.engine.Engine.openSession(Engine.java:279)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.&lt;init&gt;(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at odontologos.dao.impl.OdontologoDaoH2.buscarTodos(OdontologoDaoH2.java:71)
+	... 39 more
+Caused by: java.nio.file.NoSuchFileException: create.sql
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at org.h2.store.fs.disk.FilePathDisk.newInputStream(FilePathDisk.java:399)
+	at org.h2.store.fs.FileUtils.newInputStream(FileUtils.java:277)
+	at org.h2.command.dml.ScriptBase.openInput(ScriptBase.java:168)
+	... 50 more
+</failure>
+  </testcase>
+</testsuite>
