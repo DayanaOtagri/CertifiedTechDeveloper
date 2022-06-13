@@ -1,0 +1,8 @@
+Comando para indentificar conexiones que están utilizando
+ un puerto específico, en este caso el puerto a liberar.
+netstat -aon | findstr :8080 <------ "Puerto"
+
+Para matar el proceso y que el puerto quede libre, solo tenemos que 
+escribir el comando «taskkill» especificando su PID. 
+
+taskkill /pid 30014 <----- este esl PID /F
