@@ -1,4 +1,0 @@
-odontologos\model\Odontologo.class
-odontologos\dao\impl\IDao.class
-odontologos\dao\impl\OdontologoDaoH2.class
-odontologos\service\OdontologoService.class
