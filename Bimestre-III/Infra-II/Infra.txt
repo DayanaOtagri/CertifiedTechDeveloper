@@ -1,0 +1,17 @@
+Parametros = son variables que le asignare
+Default sería como un valor inicial en caso de que 
+el parametro no esta definido o no necesita estar definido
+
+propierties = referencias a los parametros definidos anteriormente 
+
+¡Ref = referenciar los parametros 
+
+
+Metadata = recomendado su uso en operación
+ Esta permite clasificar y encontrar más facilemtente recursos
+
+snippets: Fragmentos de codigo muy cortos que resulven algo puntual
+	Se pueden reutilizar 
+
+beanstalk = No creas ningun entorno. desgliegas una aplicacion sin 
+que tenga que levantar nada

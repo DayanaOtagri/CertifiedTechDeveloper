@@ -1,0 +1,37 @@
+http://localhost:8080/pacientes/new
+
+{
+    "nombre": "Nuevo3",
+    "apellido": "Nuevo de los Nuevos3",
+    "dni": "00000002",
+    "fechaIngreso": "2010-06-13",
+    "domicilio": {
+        "id": 2,
+        "calle": "Nuev3",
+        "numero": "00003",
+        "localidad": "Nue23",
+        "provincia": "Nuev33s"
+    }
+}
+
+
+
+http://localhost:8080/pacientes
+localhost:8080/pacientes/1
+http://localhost:8080/pacientes/update
+
+
+{
+    "id": 1,
+    "nombre": "Modificado2",
+    "apellido": "Modificado2",
+    "dni": "444",
+    "fechaIngreso": "2022-06-14T18:26:07.766+00:00",
+    "domicilio": {
+        "id": 1,
+        "calle": "Modificado2",
+        "numero": "000",
+        "localidad": "Modificado2",
+        "provincia": "Modificado Fe"
+    }
+}

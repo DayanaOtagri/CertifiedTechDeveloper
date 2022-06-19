@@ -1,0 +1,72 @@
+{
+   "paciente": {
+    "nombre": "Nuevo3",
+    "apellido": "Nuevo de los Nuevos3",
+    "dni": "00000002",
+    "fechaIngreso": "2010-06-13",
+    "domicilio": {
+        "id": 2,
+        "calle": "Nuev3",
+        "numero": "00003",
+        "localidad": "Nue23",
+        "provincia": "Nuev33s"
+    } // Termina el domicilio 
+  }, // Termian el paciente
+    "Odontologo" : {
+    "id": 11,
+    "nombre": "Uno nuevo",
+    "apellido": "Nuevo de los Nuevos8",
+    "matricula": "9999999"
+ }// Termina el odontologo
+} // Termina el turno
+
+
+{
+    "paciente" :  {
+    "id": 11,
+    "nombre": "Juan ",
+    "apellido": "Castro",
+    "dni": "123456",
+    "fechaIngreso": "2022-06-14T19:31:35.197+00:00",
+    "domicilio": {
+        "id": 11,
+        "calle": "Nuev8",
+        "numero": "00003",
+        "localidad": "Nue23",
+        "provincia": "Nuev33s"
+    } //  Termina Domicilio 
+}, // Termina Paciente 
+    "Odontologo" : {
+    "id": 11,
+    "nombre": "Uno nuevo",
+    "apellido": "Nuevo de los Nuevos8",
+    "matricula": "9999999"
+ } // Termina Odontologo 
+
+}// Termina Turno 
+
+----------------------------------------------------------------------
+
+{
+    "paciente": {
+    "id": 1,
+    "nombre": "Nuevo8",
+    "apellido": "Nuevo de los Nuevos8",
+    "dni": "00000002",
+    "fechaIngreso": "2022-06-14",
+    "domicilio": {
+        "id": 1,
+        "calle": "Nuev8",
+        "numero": "00003",
+        "localidad": "Nue23",
+        "provincia": "Nuev33s"
+    }
+  },
+    "odontologo": {
+    "id": 1,
+    "nombre": "Martin Avellaneda",
+    "apellido": "Nuevo de los Nuevos8",
+    "matricula": "9999999"
+    },
+    "date": "2022-06-15"
+}
