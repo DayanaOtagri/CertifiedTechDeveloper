@@ -1,0 +1,14 @@
+C24A - Taller de coding sobre el trabajo integrador
+10 de junio
+
+Taller de coding
+
+
+¿Cuál es el objetivo de este espacio?
+Aprovechar este espacio para seguir construyendo tu trabajo integrador y tener lista todas las capas que conforman el patrón DAO.
+OdontologoService y OdontologoDAOH2
+PacienteService, PacienteDAOH2 y DomicilioDAOH2
+TurnoService y TurnoDAOH2
+Traer dudas por si te trabaste en algún punto del trabajo integrador. Estas pueden ser resueltas por el profe o compañeros que también tienen el mismo desafío que vos.
+Si estás adelantado, también es un espacio para que puedas ayudar a tus compañeros.
+¡Vení preparado para codear!

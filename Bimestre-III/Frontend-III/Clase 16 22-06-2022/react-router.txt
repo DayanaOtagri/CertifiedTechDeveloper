@@ -1,0 +1,42 @@
+React-Rourter
+
+
+1. npm install react-router-dom@6
+2. Carpeta de pages(padres) y otra de componets(Hijos)
+3. En pages una carpeta Home y dentro un component Home 
+4. Dentro de pages una carpeta que se llame about y dentro de ella
+un component About.js  
+5. Dentro de pages una carpeta Contact y su respectivo component 
+
+en App.js importar 
+import {BroserRouter, Routes, Route} from "react-router-dom"
+
+Enrutamiento estatico porque es un proceso manual.
+
+----------------------------------------------------------------
+
+import {Link} from "react-router-dom" 
+Este componente suplanta a la etiqueta <a> un enlace </a>  y permite 
+navegar entre pages. button dentro de link, pero no link dentro de button
+
+<Link to = "about"> Ir a about </Link>
+
+-------------------------------------------------------------------
+
+import {useNavigate} from "react-router-dom" 
+Esta es una función por lo que se utiliza de otra forma
+
+Se crea una variable y dentro de ella se llama a useNavigate 
+const navigate = useNavigate(); 
+
+-------------------------------------------------------------------
+ ProtectedRoutes
+
+Definir una condicion que se tiene que cumplir primero para que el usurio
+pueda acceder a las diferentes rutas. 
+
+ProtectedRoutes carpeta con un Componente con el mismo nombre 
+
+import {Oulet, Navigate} from "react-router-dom";
+Estos dos son componentes 
+
